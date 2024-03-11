@@ -1,0 +1,26 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": ".NET Core Launch (console)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${ES2016B}/bin/Debug/<target-framework>/<ES2016B.dll>",
+            "args": [],
+            "cwd": "${ES2016B}",
+            "stopAtEntry": false,
+            "console": "internalConsole"
+        },
+        {
+            "name": "C#: <ES2016B> Debug",
+            "type": "dotnet",
+            "request": "launch",
+            "projectPath": "${ES2016B}/<C:Users/USER/OneDrive/Desktopi/DKWeb/ES2016B>><ES2016B>.csproj"
+        }
+
+    ]
+}
